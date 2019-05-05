@@ -1,0 +1,58 @@
+## UPMPDCLI
+iconpath = /volumio/app/plugins/audio_interface/upnp/upnpicon.png
+#upnpav = 0
+openhome = 1
+cachedir = /tmp/upmpdclicache
+presentationhtml=/tmp/presentation.html
+loglevel = -1
+checkcontentformat = 0
+
+## MPD
+mpdport = 6599
+#ownqueue = 0
+
+## AUDIO CONTROL HOOKS
+externalvolumecontrol = 1
+getexternalvolume = /tmp/getvolume
+onvolumechange = /tmp/setvolume
+
+## OHMEDIA
+ohmanufacturername = Volumio
+ohmanufacturerinfo = Volumio
+ohmanufacturerurl = https://volumio.org/
+ohmanufacturerimageuri = /volumio/app/plugins/audio_interface/upnp/upnpicon.png
+ohmodelname = Volumio
+ohmodelinfo = Volumio
+ohmodelurl = https://volumio.org/
+ohmodelimageuri = /volumio/app/plugins/audio_interface/upnp/upnpicon.png
+ohproductname = Volumio
+ohproductinfo = Volumio
+ohproducturl = https://volumio.org/
+ohproductimageuri = /volumio/app/plugins/audio_interface/upnp/upnpicon.png
+ohmetapersist = 1
+
+### Parameters for the Songcast modes
+#sclogfilename = /tmp/scmpdcli.log
+#scloglevel = 6
+#scplaymethod = mpd
+#schttpport = 8768
+#scalsadevice = default
+#sc2mpd = /usr/bin/sc2mpd
+## Parameters tor the Sender/Receiver mode. Only does anything if
+## scplaymethod is alsa
+#scripts_dir = /usr/share/upmpdcli/src_scripts
+
+## STREAMING SERVICES
+tidaluser = {TIDAL-USER}
+tidalpass = {TIDAL-PASS}
+tidalquality = {TIDAL-QUAL}
+qobuzuser = {QOBUZZ-USER}
+qobuzpass = {QOBUZZ-PASS}
+qobuzformatid = {QOBUZZ-QUAL}
+gmusicuser = {GMUSIC-USER}
+gmusicpass = {GMUSIC=PASS}
+gmusicquality = {GMUSIC-QUAL}
+gmusicdeviceid = {GMUSIC-DID}
+spotifyuser = {SPO-USER}
+spotifypass = {SPO-PASS}
+

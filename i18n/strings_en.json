@@ -1,0 +1,12 @@
+{
+  "TIDAL_USERNAME": "Tidal username",
+  "TIDAL_PASSWORD": "Tidal password",
+  "TIDAL_QUALITY":  "Tidal quality",
+  "TIDAL_LOW": "low rate AAC",
+  "TIDAL_HIGH": "high rate AAC",
+  "TIDAL_LOSSLESS": "best lossless quality",
+  "TIDAL_CONFIGURATION": "Tidal Configuration",
+  "TIDAL_ACCOUNT": "Tidal account",
+  "SAVE": "Save"
+
+}

@@ -1,0 +1,65 @@
+{
+  "page": {
+    "label": "TRANSLATE.TIDAL_CONFIGURATION"
+  },
+  "sections": [
+   {
+      "id": "section_account",
+      "element": "section",
+      "label": "TRANSLATE.TIDAL_ACCOUNT",
+      "icon": "fa-plug",
+      "onSave": {"type":"controller", "endpoint":"miscellanea/tidalp", "method":"saveTidalAccount"},
+      "saveButton": {
+        "label": "TRANSLATE.SAVE",
+        "data": [
+          "username",
+          "password",
+          "bitrate"
+        ]
+      },
+    "content": [
+      {
+        "id": "username",
+        "type": "text",
+        "element": "input",
+        "doc": "This is the username of your TIDAL account",
+        "label": "TRANSLATE.TIDAL_USERNAME",
+        "value": ""
+      },
+      {
+        "id": "password",
+        "type": "password",
+        "element": "input",
+        "doc": "This is the password of your TIDAL account",
+        "label": "TRANSLATE.TIDAL_PASSWORD",
+        "value": ""
+      },
+      {
+        "id": "bitrate",
+        "type": "text",
+        "element": "select",
+        "doc": "This is the stream quality for your Tidal service",
+        "label":  "TRANSLATE.TIDAL_QUALITY",
+        "value": {
+          "value": "",
+          "label": "TRANSLATE.TIDAL_LOSSLESS"
+        },
+        "options": [
+          {
+            "value": "low",
+            "label": "TRANSLATE.TIDAL_LOW"
+          },
+          {
+            "value": "high",
+            "label": "TRANSLATE.TIDAL_HIGH"
+          },
+          {
+            "value": "lossless",
+            "label": "TRANSLATE.TIDAL_LOSSLESS"
+          }
+        ]
+      }
+    ]
+   }
+  ]
+}

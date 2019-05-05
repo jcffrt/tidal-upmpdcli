@@ -1,0 +1,24 @@
+{
+	"name": "tidalp",
+	"version": "1.0.0",
+	"description": "Tidal plugin with upmpdcli for Volumio2",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "JaZZee Team",
+	"license": "ISC",
+  "volumio_info": {
+    "prettyName": "Tidal",
+    "icon": "fa-lightbulb-o",
+    "plugin_type": "miscellanea"
+  },
+	"dependencies": {
+		"fast.js": "^0.1.1",
+		"fs-extra": "^0.28.0",
+		"kew": "^0.7.0",
+		"net": "^1.0.2",
+		"nodetools": "^1.0.0",
+		"v-conf": "^0.10.0"
+	}
+}
