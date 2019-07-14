@@ -43,6 +43,7 @@ ohmetapersist = 1
 #scripts_dir = /usr/share/upmpdcli/src_scripts
 
 ## STREAMING SERVICES
+msfriendlyname = JaZZee-Streaming
 tidaluser = {TIDAL-USER}
 tidalpass = {TIDAL-PASS}
 tidalquality = {TIDAL-QUAL}
