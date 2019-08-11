@@ -141,11 +141,11 @@ ControllerTidal.prototype.pushTidalConfUpmpdcli = function (config) {
 
     var defer = libQ.defer();
     var upnpPlugin = self.commandRouter.pluginManager.getPlugin('audio_interface', 'upnp');
-    var upmpdcliconftmpl0 = "/volumio/app/plugins/audio_interface/upnp/upmpdcli.conf.tmpl0";
+    //var upmpdcliconftmpl0 = "/volumio/app/plugins/audio_interface/upnp/upmpdcli.conf.tmpl0";
     var upmpdcliconftmpl = "/volumio/app/plugins/audio_interface/upnp/upmpdcli.conf.tmpl";
 
 	try {
-        fs.readFile(upmpdcliconftmpl0, 'utf8', function (err, filedata) {
+        fs.readFile(upmpdcliconftmpl, 'utf8', function (err, filedata) {
 			if (err) {
 				defer.reject(new Error(err));
 				return console.log(err);

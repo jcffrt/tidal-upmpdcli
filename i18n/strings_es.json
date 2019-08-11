@@ -1,0 +1,12 @@
+{
+  "TIDAL_USERNAME": "Usuario Tidal",
+  "TIDAL_PASSWORD": "Contraseña Tidal",
+  "TIDAL_QUALITY":  "Calidad Tidal",
+  "TIDAL_LOW": "AAC de tasa baja",
+  "TIDAL_HIGH": "AAC de tasa alta",
+  "TIDAL_LOSSLESS": "Calidad sin pérdidas",
+  "TIDAL_CONFIGURATION": "Configuración Tidal",
+  "TIDAL_ACCOUNT": "Cuenta Tidal",
+  "SAVE": "Salvar"
+
+}
