@@ -17,19 +17,20 @@ getexternalvolume = /tmp/getvolume
 onvolumechange = /tmp/setvolume
 
 ## OHMEDIA
-ohmanufacturername = Volumio
-ohmanufacturerinfo = Volumio
-ohmanufacturerurl = https://volumio.org/
+ohmanufacturername = JaZZee
+ohmanufacturerinfo = JaZZee
+ohmanufacturerurl = https://jazzee.net/
 ohmanufacturerimageuri = /volumio/app/plugins/audio_interface/upnp/upnpicon.png
-ohmodelname = Volumio
-ohmodelinfo = Volumio
-ohmodelurl = https://volumio.org/
+ohmodelname = JaZZee
+ohmodelinfo = JaZZee
+ohmodelurl = https://jazzee.net/
 ohmodelimageuri = /volumio/app/plugins/audio_interface/upnp/upnpicon.png
-ohproductname = Volumio
-ohproductinfo = Volumio
-ohproducturl = https://volumio.org/
+ohproductname = JaZZee
+ohproductinfo = JaZZee
+ohproducturl = https://jazzee.net/
 ohproductimageuri = /volumio/app/plugins/audio_interface/upnp/upnpicon.png
 ohmetapersist = 1
+lumincompat = 1
 
 ### Parameters for the Songcast modes
 #sclogfilename = /tmp/scmpdcli.log
